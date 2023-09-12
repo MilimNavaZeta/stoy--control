@@ -1,0 +1,81 @@
+.hero__title{
+    color: #212B31;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 100px;
+    max-width: 818px;
+    margin: 0 auto;
+}
+.but1{
+color: #FFF;
+font-family: Arial;
+font-size: 15px;
+border-radius: 4px;
+border: 3px solid #212B31;
+background: #212B31;
+padding: 13px 25px;
+cursor: pointer;
+gap: 10px;
+}
+.but1:hover{
+  transition: .3s;
+  background: #FFF;
+  color: #212B31;
+}
+.but2{
+font-family: Arial;
+font-size: 15px;
+border-radius: 4px;
+border: 3px solid #dadedf;
+background: #FFF;
+padding: 13px 25px;
+cursor: pointer;
+gap: 10px;
+}
+.but2:hover{
+    transition: .3s;
+    background: #212B31;
+    color: #FFF;
+}
+.hero__btns{
+display: flex;
+justify-content: center;  
+gap: 16px;
+margin-top: 30px;  
+
+}
+.imgs{
+    text-align: center;
+    margin-top: 88px;
+}
+.hero{
+    margin-top: 100px;
+}
+.imgs  img + img{
+    margin-top: 36px;
+}
+.imgs img {
+    max-width: 100%;
+}
+@media screen and ( max-width: 706px ){
+    .hero__title{
+        font-size: 38px;
+        }
+}
+@media screen and ( max-width: 550px ){
+   .hero__title{
+    font-size: 28px;
+   }
+}
+   @media screen and ( max-width: 410px ) {
+    .hero__title{
+     font-size: 20px;
+    }
+}
+@media screen and ( max-width: 361px ) {
+    .hero__btns button{
+     font-size: 11px;
+    }
+}

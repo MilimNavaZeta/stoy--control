@@ -1,0 +1,13 @@
+.logo__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 39px;
+    row-gap: 10px;
+    margin-top: 56px;
+}
+
+.logo__content img{
+    width: 16%;
+}
+

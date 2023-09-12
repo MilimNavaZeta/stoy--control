@@ -1,0 +1,58 @@
+.formation-title{
+    color: #212B31;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
+}
+.formation p{
+    color: #72787D;
+font-family: Inter;
+font-size: 16px;
+margin: 0;
+margin-top: 22px;
+}
+.formation-title img{
+    margin-right: 8px;
+}
+.formation p + p {
+    margin-top: 10px;
+}
+.facebook{
+    margin-top: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.formation h3{
+    color: #212B31;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+}
+.range__content{
+    display: flex;
+    gap: 160px;
+    flex-wrap: wrap;
+   justify-content: space-around;
+    align-items: center;
+    
+    row-gap: 50px;
+}
+.range{
+    margin-bottom: 160px;
+    margin-top: 150px;
+}
+.range__content p{
+    transition: .3s;
+    cursor: pointer;
+}
+.range__content p:hover{
+    color: #036FC7;
+
+}

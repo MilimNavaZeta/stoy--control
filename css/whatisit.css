@@ -1,0 +1,107 @@
+.what h1{
+    color: #212B31;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-weight: 400;
+margin-top: 136px;
+}
+.what p{
+    color: #72787D;
+font-family: Inter;
+font-size: 20px;
+max-width: 827px;
+margin:  auto;
+text-align: center;
+}
+.stalker h2{
+    color: #212B31;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+margin-top: 95px;
+}
+.stalker p{
+    color: #72787D;
+font-family: Inter;
+font-size: 16px;
+margin-top: 19px;
+max-width: 500px;
+}
+.stalker{
+ display: flex;
+}
+.whatisit__content{
+    justify-content: center;
+}
+.control h2{
+    color: #212B31;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+max-width: 515px;
+margin-top: 67px;
+}
+.control p{
+    color: #72787D;
+font-family: Inter;
+font-size: 16px;
+max-width: 500px;
+}
+.control{
+    display: flex;
+    margin-top: 64px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.control2 h2 {
+    color: #212B31;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 119px;
+}
+.control2 p{
+    color: #72787D;
+font-family: Inter;
+font-size: 16px;
+max-width: 500px;
+margin-top: 19px;
+}
+.control2{
+    display: flex;
+    justify-content: center;
+}
+.whatisit__content img{
+max-width: 100%;
+padding: 20px 20px;
+text-align: center;
+
+
+}
+@media screen  and (max-width: 776px){
+   .whatisit__content{
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+}
+@media screen and (max-width: 870px) {
+    .stalker,
+    .stalker p{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .control{
+        text-align: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .control2,
+     .control2 p{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

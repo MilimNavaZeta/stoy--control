@@ -1,0 +1,120 @@
+.choice__title h2 {
+    color: #212B31;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.choice__title p {
+    color: #212B31;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.choice__title {
+    text-align: center;
+    margin-top: 96px;
+}
+
+.choice__item h3 {
+    color: #212B31;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.choice__item p {
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    max-width: 394px;
+}
+
+.choice__item {
+    display: flex;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.choice__item img {
+    padding-top: 15px;
+}
+
+.choice__items {
+    max-width: 453px;
+    margin: 0 auto;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    width: 37%;
+    bottom: 20px;
+}
+.choice__content {
+    display: flex;
+    align-items: center;
+    gap: 78px;
+    flex-wrap: wrap;
+}
+
+
+@media  screen and (max-width:1108px) {
+   .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        width: 40%;
+        bottom: 20px;
+    }    
+}
+@media  screen and (max-width:1087px) {
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    width: 43%;
+    bottom: 20px;
+}    
+}
+@media  screen and (max-width:925px) {
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        width: 46%;
+        bottom: 20px;
+    }    
+    }
+   
+    @media  screen and (max-width:829px) {
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            width: 28%;
+            bottom: 10px;
+        }    
+        }
+        @media  screen and (max-width:726px) {
+            .swiper-horizontal>.swiper-pagination-bullets,
+            .swiper-pagination-bullets.swiper-pagination-horizontal,
+            .swiper-pagination-custom,
+            .swiper-pagination-fraction {
+                width: 31%;
+                bottom: 10px;
+            }    
+            }
+
+        @media  screen and (max-width:649px) {
+            .swiper-horizontal>.swiper-pagination-bullets,
+            .swiper-pagination-bullets.swiper-pagination-horizontal,
+            .swiper-pagination-custom,
+            .swiper-pagination-fraction {
+                width: 39%;
+                bottom: 10px;
+            }    
+            }

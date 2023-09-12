@@ -1,0 +1,25 @@
+.bottom__content p{
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    text-align: center;
+    transition: .3s;
+    cursor: pointer;
+}
+.bottom__content p:hover{ 
+    color: #036FC7;
+}
+.bottom__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+   
+}
+.line{
+    background: #DADEDF;
+    width: 1056px;
+height: 1px;
+margin: auto;
+margin-bottom: 31px;
+}

@@ -1,0 +1,145 @@
+.black{
+    background: #212B31;
+    position: relative;
+    padding-top: 143px;
+    padding-bottom: 118px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 144px;
+    margin-bottom: 143px;
+}
+.black__info h2{
+color: #FFF;
+font-family: Inter;
+font-size: 32px;
+font-weight: 400;
+}
+
+.black__marker h3{
+    color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+position: relative;
+margin: 0;
+}
+.black__marker p{
+    color: rgba(255, 255, 255, 0.75);
+font-family: Inter;
+font-size: 16px;
+}
+
+.black__btns{
+    display: flex;
+    gap: 16px;
+   margin-left: 20px;
+   
+}
+.black__btn.white:hover{
+    transition: .3s;
+    background: #212B31;
+    color: #FFF;
+
+}
+.black__btn.white{
+   background: #DADEDF;
+   color: #212B31;
+   cursor: pointer;
+}
+.black__btn.black:hover{
+    transition: .3s;
+    background: #FFF;
+    color: #212121  
+}
+
+.black__btn.black{
+color: #FFF;
+margin: 0;
+cursor: pointer;
+}
+.black__marker{
+    padding-left: 40px;
+}
+.black__marker h3:before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #FFF;
+    border-radius: 100%;
+    left: -32px;
+    top: 8px;
+}
+.black img{
+    position: absolute;
+    right: 0;
+    top: 143px;
+}
+.black__markers{
+    max-width: 549px;
+    margin: 50px 0px;
+    row-gap: 24px;
+}
+.black__btn{
+    font-size: 18px;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 4px;
+    font-family: Arial;
+    border: 1px solid #DADEDF;
+}
+.black__item h3{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+}
+.black__item p{
+    color: rgba(255, 255, 255, 0.75);
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+}
+.black__item{
+    text-align: center;
+    max-width: 340px;
+    gap: 18px;
+    margin-right: 0;
+}
+.black__bottom{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 127px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.black__item img{
+    position: relative;
+    top: auto;
+}
+.black__markers{
+    row-gap: 24px;
+}
+@media screen and (max-width: 1075px) {
+ .black__content{
+    background: rgba(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0));
+    padding: 20px;
+    border-radius: 5px;
+ }   
+ .black__img{
+    opacity: .1;
+ }
+}
+@media screen  and (max-width: 489px) {
+    .black__btns{
+        justify-content: center;
+        margin: 0;
+    }
+}
+@media screen  and (max-width: 348px) {
+    .black__btn {
+        font-size: 14px;
+    }
+}

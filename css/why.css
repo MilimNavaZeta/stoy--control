@@ -1,0 +1,129 @@
+.why {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.why__box {
+    border-radius: 5px;
+    background: #F6F8F9;
+    padding: 60px 90px;
+    z-index: -2;
+    max-width: 614px;
+    box-sizing: border-box;
+}
+.why__box img {
+max-width: 100%;
+}
+.why__description {
+    color: #212B31;
+    font-family: Inter;
+    font-size: 30px;
+    max-width: 435px;
+    position: relative;
+    z-index: 1;
+}
+
+.why__description img {
+    position: absolute;
+    top: -10px;
+    left: -46px;
+    z-index: -1;
+}
+
+.why__author {
+    display: flex;
+    align-items: center;
+
+}
+
+.why__box-info h3,
+.why__box-info p {
+    margin: 0;
+    margin-left: 8px;
+}
+
+.why__box-info h3 {
+    color: #212B31;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.why__box-info p {
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+
+}
+@media screen and (max-width:1035px) {
+ .why__description{
+    font-size: 25px;
+ }    
+}
+@media  screen and (max-width:893px) {
+ .why__box-info p,
+ .why__box-info h3{
+font-size: 13px;
+}
+.why__description{
+    font-size: 20px;
+}
+}
+@media screen and (max-width:829px) {
+.why__box{
+    padding: 40px 45px;
+}  
+.why__description img{
+    left: -38px;
+    top: -23px
+}  
+}
+@media  screen and (max-width:649px) {
+.why__description{
+    font-size: 16px;
+}    
+.why__box-info p,
+.why__box-info h3{
+    font-size: 10px;
+}
+}
+@media screen and (max-width:567px) {
+    .why__box{
+        padding: 33px 30px;
+    } 
+    .why__box img{
+        max-width: 50%; 
+    }
+    .why__description img{
+        left: -22px;
+        top: -23px
+    } 
+    .why__author img{
+        max-width: 25%;
+        } 
+}
+@media  screen and (max-width:507px) {
+    .why__description{
+        font-size: 13px;
+    } 
+    .why__box-info p{
+        font-size: 8px;
+    } 
+    .why__author img{
+    max-width: 20%;
+    } 
+    .why__box{
+        padding: 28px 26px;
+    }
+}
+@media screen and (max-width:383px) {
+    .why__box-info h3{
+font-size: 8px;
+    }
+    .why__box-info p{
+        font-size: 7px;
+    }
+    .why__box{
+        padding: 20px 20px;
+    }
+}

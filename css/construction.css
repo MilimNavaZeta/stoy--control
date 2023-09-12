@@ -1,0 +1,39 @@
+.construction__content{
+    text-align: center;
+}
+.construction__content h1{
+    color: #212B31;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-weight: 400;
+margin-top: 142px;
+}
+.construction__content p{
+    color: #72787D;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+margin-top: 16px;
+}
+.construction__content img{
+    margin-top: 40px;
+    max-width: 100%;
+}
+@media screen and (max-width: 764px) {
+ .construction__content{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+ }
+ .construction__content h2{
+    margin: 0 auto;
+ }
+ .construction__content p{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .construction__content img{
+    margin-top: 50px;
+ }
+}
